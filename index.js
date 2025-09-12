@@ -69,5 +69,20 @@
 //     txtc.innerText = "hm";
 // }
 
-// Question 5 Asnwer
+// let newbtn = document.createElement("button");
+// newbtn.innerHTML = "bnntn"
+
+// let div = document.querySelector("div")
+// div.append("button")'
+
+var btn = document.createElement("button")
+btn.innerText = "click Me"
+btn.style.background = "Red"
+btn.style.color = "white";
+var div = document.querySelector("div")
+div.append(btn)
+div.before(btn)
+
+var bodyy = document.querySelector("body");
+bodyy.after(btn)
 
